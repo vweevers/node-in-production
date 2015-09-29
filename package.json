@@ -25,5 +25,8 @@
   "keywords": [
     "node_env",
     "production"
-  ]
+  ],
+  "repository": "vweevers/node-in-production",
+  "bugs": "https://github.com/vweevers/node-in-production/issues",
+  "homepage": "https://github.com/vweevers/node-in-production"
 }
