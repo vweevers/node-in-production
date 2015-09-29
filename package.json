@@ -1,0 +1,29 @@
+{
+  "name": "in-production",
+  "version": "1.0.0",
+  "description": "Two simple variants of NODE_ENV === production",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      [
+        "envify",
+        {
+          "_": "purge"
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "envify": "~3.4.0"
+  },
+  "author": "Vincent Weevers",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "scripts": {},
+  "keywords": [
+    "node_env",
+    "production"
+  ]
+}
